@@ -13,7 +13,7 @@ const port = process.env.PORT || 5000;
 
 // firebase admin initialization 
 
-const serviceAccount = require("./sa-motors-firebase-adminsdk.json");
+const serviceAccount = require("./road-bolt-39afe-firebase-adminsdk-t5huu-64e1c3cc9f.json");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount)
