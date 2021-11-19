@@ -45,7 +45,7 @@ async function verifyToken(req, res, next) {
 async function run() {
     try {
         await client.connect();
-        const database = client.db('road-bolt');
+        const database = client.db('moto-gp');
         const productCollection = database.collection('products');
         const orderCollection = database.collection('orders');
         const usersCollection = database.collection('users');
