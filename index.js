@@ -135,12 +135,12 @@ async function run() {
       });
       console.log(documents);
     }
-    // else {
-    //   const role = "admin";
-    //   const result3 = await usersCollection.insertOne(req.body.email, {
-    //     role: role,
-    //   });
-    // }
+    else {
+      const role = "admin";
+      const result3 = await usersCollection.insertOne(req.body.email, {
+        role: role,
+      });
+    }
   });
 
           // check admin or not
